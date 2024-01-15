@@ -51,12 +51,12 @@ p {
 .container {
     width: 80%;
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 /* Navigation Styles */
 .nav-container {
-    padding: 50px 0;
+    margin: 50px auto;
 }
 
 .nav-container .web-logo {
@@ -110,7 +110,7 @@ p {
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 100px;
 }
 
@@ -156,7 +156,7 @@ p {
 }
 
 /* Popular Tour Styles */
-#popular-tours .tour-section-container{
+#popular-tours .tour-section-container {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -166,17 +166,86 @@ p {
     margin-bottom: 24px;
 }
 
-#popular-tours .tour-section-container .tour-text p{
+#popular-tours .tour-section-container .tour-text p {
     margin: 38px 0;
 }
 
-#popular-tours .tour-section-container .tour-text ul li{
+#popular-tours .tour-section-container .tour-text ul li {
     margin-bottom: 16px;
     color: var(--paragraph-color);
     list-style-position: inside;
 }
 
 
-#popular-tours .tour-section-container .tour-img img{
-    width: 100% ;
+#popular-tours .tour-section-container .tour-img img {
+    width: 100%;
+}
+
+/* Destination Section Styles */
+#destination .destination-text {
+    text-align: center;
+    width: 643px;
+    margin: auto;
+}
+
+#destination .destination-text h2 {
+    margin-bottom: 24px;
+}
+
+#destination .destination-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 48px;
+    gap: 24px;
+}
+
+#destination .destination-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+#destination .destination-img .img {
+    position: relative;
+}
+
+#destination .destination-img .img span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.img1 {
+    grid-column: 1/7;
+}
+
+.img2 {
+    grid-column: 7/-1;
+}
+
+.img3 {
+    grid-column: 1/5;
+}
+
+.img4 {
+    grid-column: 5/9;
+}
+
+.img5 {
+    grid-column: 9/-1;
+}
+
+.img6 {
+    grid-column: 1/6;
+}
+
+.img7 {
+    grid-column: 6/-1;
 }
