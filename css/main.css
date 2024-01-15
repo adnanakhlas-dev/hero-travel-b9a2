@@ -249,3 +249,48 @@ p {
 .img7 {
     grid-column: 6/-1;
 }
+
+/* Choose Us Section Styles */
+#choose-us .choose-text {
+    width: 643px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#choose-us .choose-text h2 {
+    margin-bottom: 24px;
+}
+
+#choose-us .choose-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap ;
+    margin-top: 48px;
+}
+
+#choose-us .choose-card-container .card {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #FBB5630D;  
+    width: 48%;  
+    border: 1px solid #FBB56333;
+}
+
+#choose-us .choose-card-container .card h3 {
+    color: var(--heading-color);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px 0;
+}
+
+#choose-us .choose-card-container .card-2 {
+    background-color: #29CEF60D;
+    border: 1px solid #29CEF633;
+}
+
+#choose-us .choose-card-container .card-3 {
+    background-color: #E944440D;
+    border: 1px solid #E9444433;
+}

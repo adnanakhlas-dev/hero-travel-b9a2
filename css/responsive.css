@@ -90,4 +90,20 @@
     .img7{
         grid-column: 1/-1;
     }
+
+    /* Choose Us Section Styles */
+    #choose-us .choose-card-container {
+        flex-direction: column;
+    }
+
+    #choose-us .choose-card-container .card{
+        width: 335px;
+    }
+
+    #choose-us .choose-card-container .card h3{
+        font-size: 1.25rem;
+    }
+    #choose-us .choose-card-container .card p{
+        font-size: 0.875rem;
+    }
 }
