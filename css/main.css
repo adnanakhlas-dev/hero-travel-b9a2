@@ -1,0 +1,182 @@
+/* Google Font Mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --heading-color: #131318;
+    --paragraph-color: #131318B2;
+    --input-color: #13131880;
+    --white-color: #FFFFFF;
+    --dark-01: #424247;
+    --dark-02: #5A5A5D;
+}
+
+h1 {
+    color: var(--heading-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+    display: inline-block;
+}
+
+h2 {
+    color: var(--heading-color);
+    font-weight: 800;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    padding: 14px 34px;
+    outline: 0;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+.nav-container {
+    padding: 50px 0;
+}
+
+.nav-container .web-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+.nav-container .web-logo img {
+    width: 18%;
+}
+
+.nav-container .web-logo h1 span {
+    color: var(--primary-color);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container nav ul {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-container nav ul li {
+    list-style: none;
+}
+
+.nav-container nav ul li a {
+    text-decoration: none;
+    color: var(--dark-01);
+    font-size: 1.125rem;
+
+}
+
+.nav-container nav ul li a.active-link {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.nav-container nav button {
+    display: none;
+}
+
+/* Banner Section Styles */
+#banner-section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/image2.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 100px;
+}
+
+#banner-section .banner-container {
+    padding: 100px 0;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner-section .banner-container .banner-text h2 {
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#banner-section .banner-container .banner-text p {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+    width: 676px;
+    margin: 24px 0 48px 0;
+}
+
+#banner-section .banner-container .banner-form form {
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFFFFF4D;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#banner-section .banner-container .banner-form input,
+#banner-section .banner-container .banner-form select,
+#banner-section .banner-container .banner-form select option {
+    color: var(--input-color);
+    padding: 16px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+}
+
+/* Popular Tour Styles */
+#popular-tours .tour-section-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#popular-tours .tour-section-container .tour-text h2 {
+    margin-bottom: 24px;
+}
+
+#popular-tours .tour-section-container .tour-text p{
+    margin: 38px 0;
+}
+
+#popular-tours .tour-section-container .tour-text ul li{
+    margin-bottom: 16px;
+    color: var(--paragraph-color);
+    list-style-position: inside;
+}
+
+
+#popular-tours .tour-section-container .tour-img img{
+    width: 100% ;
+}

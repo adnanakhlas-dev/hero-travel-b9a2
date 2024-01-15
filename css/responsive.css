@@ -1,0 +1,69 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        max-width: 335px;
+        margin: auto !important;
+    }
+
+    /* Navigation Styles */
+    .nav-container {
+        padding: 18px 0;
+    }
+
+    .nav-container nav ul {
+        display: none;
+    }
+
+    .nav-container nav button {
+        display: inline-block;
+        width: 7%;
+        background-color: none;
+        border: none;
+        outline: none;
+    }
+
+    .nav-container .web-logo h1 {
+        font-size: 1.346rem;
+        font-weight: 800;
+    }
+
+    /* Banner Section Styles */
+
+    #banner-section .banner-container {
+        width: 304px;
+    }
+
+    #banner-section .banner-container .banner-text h2 {
+        font-size: 1.375rem;
+    }
+
+    #banner-section .banner-container .banner-text p {
+        font-size: 14px;
+        width: 304px;
+        line-height: 21px;
+    }
+
+    #banner-section .banner-container .banner-form form {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    #banner-section .banner-container .banner-form input,
+    #banner-section .banner-container .banner-form select,
+    #banner-section .banner-container .banner-form select option,
+    #banner-section .banner-container .banner-form button{
+        width: 100%;
+    }
+
+    /* Popular Tour Styles */
+    #popular-tours{
+        padding: 24px 0;
+    }
+
+    #popular-tours .tour-section-container{
+        flex-direction: column;
+    }
+}
