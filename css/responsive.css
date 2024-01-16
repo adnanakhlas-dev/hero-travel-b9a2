@@ -48,6 +48,10 @@
 
     }
 
+    #banner-section .banner-container .banner-text h2{
+        font-size: 1.375rem ;
+    }
+
     #banner-section .banner-container .banner-text p {
         width: 304px;
     }
