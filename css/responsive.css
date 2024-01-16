@@ -185,4 +185,13 @@
     #newsletter .newsletter-discount .discount-text h3 {
         font-size: 1.375rem;
     }
+
+    /* Footer Style */
+    footer .footer-text{
+        width: auto;
+    }
+
+    footer{
+        padding: 20px;
+    }
 }
