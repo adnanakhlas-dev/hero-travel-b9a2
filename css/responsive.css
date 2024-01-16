@@ -39,9 +39,13 @@
     }
 
     /* Banner Section Styles */
+    #banner-section{
+        margin-bottom: 50px;
+    }
 
     #banner-section .banner-container {
         width: 304px;
+
     }
 
     #banner-section .banner-container .banner-text p {
