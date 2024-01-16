@@ -147,7 +147,42 @@
     }
 
     /* Perfect Place Section Styles */
-    #perfect-place{
+    #perfect-place {
         flex-direction: column;
+    }
+
+    /* Newletter Section Style */
+    #newsletter {
+        flex-direction: column;
+        padding: 24px 0;
+    }
+
+    #newsletter .newsletter-form p {
+        width: 100%;
+    }
+
+
+    #newsletter .newsletter-form {
+        padding: 20px;
+    }
+
+    #newsletter .newsletter-discount .discount-text {
+        width: 214px;
+        padding: 10px 20px;
+        background-color: var(--primary-color);
+        border-radius: 8px;
+        position: absolute;
+        right: 0px;
+        bottom: 56px;
+        transform: rotate(-32deg);
+    }
+
+    #newsletter .newsletter-discount .discount-text p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #newsletter .newsletter-discount .discount-text h3 {
+        font-size: 1.375rem;
     }
 }
