@@ -145,4 +145,9 @@
     #deal .deals-cards .cards .cards-container .description p {
         width: auto;
     }
+
+    /* Perfect Place Section Styles */
+    #perfect-place{
+        flex-direction: column;
+    }
 }

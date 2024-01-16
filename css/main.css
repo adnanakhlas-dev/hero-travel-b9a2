@@ -367,3 +367,37 @@ p {
     justify-content: flex-start;
 }
 
+/* Perfect Place Section Styles */
+#perfect-place{
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+#perfect-place .place-text h2{
+    line-height: 60px;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+
+
+#perfect-place .place-text p {
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--dark-02);
+    margin-bottom: 24px;
+}
+
+#perfect-place .place-text ul li{
+    list-style-position: inside;
+    margin-bottom: 16px;
+    font-weight: 700px;
+}
+
+#perfect-place .place-text button{
+    margin-top: 32px;
+}
+
+#perfect-place .place-video img {
+    width: 100%;
+}
